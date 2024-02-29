@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="content-tabuada">
+        
+        <div>
+
+            <label for="valorA">Digite o numero A: </label>
+            <input type="number" id="valorA" placeholder="Digite o numero A">
+
+        </div>
+
+        <div>
+
+            <label for="valorB">Digite o numero B: </label>
+            <input type="number" id="valorB" placeholder="Digite o numero B">
+            
+        </div>
+
+        <div>
+            <button onclick = "gerarTabuada()">Gerar Tabuada</button>
+        </div>
+
+        <table id="tabuada" class="content-tabuada">
+            <thead>
+                <tr>
+                    <td>Valor A</td>
+                    <td>Operador</td>
+                    <td>Valor B</td>
+                    <td>&nbsp;</td>
+                    <td>Resultado</td>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+
+.content-tabuada{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+    border-collapse: collapse;
+}
+
+.content-tabuada td{
+    text-align: center;
+    padding-bottom: 0.75rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.content-tabuada tbody tr:nth-child(odd){
+    background-color: rgba(0,0,0,0.05);
+}
+
+.content-tabuada tbody tr:hover{
+    background-color: rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+
+.content-tabuada div{
+    padding-bottom: 5px;
+    text-align: center;
+}

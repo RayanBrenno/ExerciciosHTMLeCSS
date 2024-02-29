@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+
+.content-center{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.content-center h1{
+    text-align: center;
+    margin: 15px 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    border: 15px 0;
+}
+
+.list li {
+    padding: 8px;
+    border-bottom: 2px solid #F2F2F2;
+}
+
+.list input{
+    width: initial;
+    margin-right: 10px;
+}
+
+.complete{
+    text-decoration: line-through;
+    color: gray;
+}
+
+#new-task{
+    width: 100%;
+}
+
+.list button{
+    width: initial;
+    float: right;
+    padding: 2px 4px;
+}
