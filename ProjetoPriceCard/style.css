@@ -1,0 +1,125 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0c1014;
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #05080a;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    font-size: 40px; 
+    width: fit-content;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.title{
+    margin: 100px 0;
+    font-size: px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.header-list ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    gap: 16px;
+}
+
+.header-list a{   
+    color: white;  
+    text-decoration: none;
+    width: min-content;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.header-list a:hover{
+    text-decoration: underline;
+    pointer-events: none;
+}
+
+a.header-list-button-active{ 
+    background-color: yellow; 
+    color: black;
+    pointer-events: none;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.plan{
+    flex: 1;
+    background-color: rgb(87, 87, 87);
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 0 5px 12px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-title{
+    margin-top:0;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: yellow solid 1px;
+    letter-spacing: 2px;
+}
+
+.plan-price{
+    font-size: 33px;
+}
+
+.plan p{
+    margin-top: 0;
+}
+.plan-list{
+    margin: 0 0 35px;
+    color: #b5b5b5;
+    padding-left: 16px;
+    line-height: 1.8;
+    flex: 1;
+}
+
+.plan-list li::marker{
+    color: yellow;
+}
+
+.plan-button{
+    color: black;
+    background-color: yellow;
+    text-decoration: none;
+    padding: 16px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+ 
+.plan-button:hover{
+    outline: 2px solid yellow;
+    background-color: transparent;
+    color: yellow;
+}
+
+
+
+

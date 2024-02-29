@@ -1,0 +1,77 @@
+body {
+    box-sizing: border-box;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-title {
+    color: #385555;
+    text-align: center;
+}
+
+.content-center{
+    width: 100%;
+    max-width: 40%;
+    height: 345px;
+    margin: auto;
+    padding: 20px 15px 0px 5px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10%;
+    overflow: auto;
+}
+
+
+ul{
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.container:hover{
+    background-color: #f2f2f2;
+}
+
+.foto img{
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.name-email{
+    margin: 0 0 35px 20px;
+    flex-grow: 1;
+}
+
+.name{
+    font-size: 22px;
+}
+
+.email{
+    margin-top: 10px;
+    color: gray;
+    border-bottom: 20px;
+}
+
+.icon{
+   opacity: 0;
+}
+
+.edit, .delete{
+    padding: 8px;   
+}
+
+.container:hover .icon{
+    opacity: 0.3;
+}

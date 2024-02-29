@@ -1,0 +1,121 @@
+html{
+    font-size:62.5;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagens/topo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.topo{
+    display: flex;
+    background-color: #162028;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo div{
+    color: #425564;
+    padding-left: 15rem;
+    font-size: 3rem;
+}
+
+.topo li{
+    padding: 1rem 2rem;
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+
+.container{
+    width: 100%;
+    max-width: 60%;
+    margin: 8rem auto 0;
+    text-align: center;
+}
+
+.container-title{
+    font-size: 3.5rem;
+    letter-spacing: .2rem;
+    color: #555;
+}
+
+.container-text{
+    color: #555;
+    word-spacing: .2rem;
+    margin-bottom: 4rem;
+}
+
+.container-image{
+    margin: 0 auto;
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 1.6rem;
+    gap: 1.6rem;
+}
+
+.container-image div{
+    flex-basis: 30%;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.container-image img{
+    width: 100%;
+    display: block;
+}
+
+.container-image p,
+.container-image h2{
+    color: #555;
+    margin: .75rem 0;
+}
+
+.container2{
+    margin-top: 4rem;
+    padding: .1rem;
+    background-image: url(imagens/bg_detalhe.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+
+.container2 div{
+    margin: 8rem 15rem;
+}
+
+.container2 h2{
+    font-size: 3.5rem;
+    color: white;
+}
+
+.container2 p{
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 22rem
+}
+
+.footer{
+    background-color: #0b171f;
+    text-align: center;
+}
+
+.footer p{
+    margin: 0;
+    padding: 1.5rem;
+    color: #6f8597;
+}

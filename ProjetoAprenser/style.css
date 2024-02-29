@@ -1,0 +1,199 @@
+:root{
+    --main-color:#FED001;
+}
+
+*{
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+.centralize{
+    max-width: 100rem;
+    margin: auto;
+}
+
+.background-dark{
+    background-color: gray;
+}
+
+.background-hero{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(245,255,0,1) 100%);
+}
+
+.background-dark2{
+    background-color: darkblue;
+}
+
+.fixed{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem;
+}
+
+.header img{
+    margin-left: 2rem;
+}
+
+.header ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+    padding: 1rem;
+    margin-right: .75rem;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.hero-text{
+    font-size: 4.2rem;
+    border-left: 2rem;
+}
+
+h1{
+    text-align: center;
+    margin: 3rem auto;
+    font-size: 3rem;
+}
+
+
+.container1{
+    display: flex;
+    max-width: 65vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+}
+
+.container1 div{
+    border-radius: .5rem;
+    background-color: white;
+    flex-grow: 1;
+    flex-basis: 30%;
+}
+
+.container1 img{
+    width: 100%;
+}
+
+.container1 h2{
+    font-size: 2rem;
+}
+
+.container1 p{
+    font-size: 1rem;
+}
+
+.container1 h2,
+.container1 p{
+    margin: 1rem;
+}
+
+.hero-text{
+    margin-left: 5rem;
+}
+
+.button{
+    text-align: center;
+    margin: 3rem 0 6rem;
+}
+
+.button a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    color: black;
+    background-color: var(--main-color);
+    border-radius: .5rem;
+}
+
+.hero2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.hero2 h2,
+.hero2 p{
+    color: white;
+}
+
+.hero2 h2{
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    margin-right: .5rem;
+}
+
+.hero2 p{
+    font-size: 1.5rem;
+    margin-right: .5rem;
+}
+
+.hero2 img{
+    width: 55%;
+}
+
+
+.contatos{
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 3rem;
+}
+
+.map{
+    max-width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.map img{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.map-footer p{
+    text-align: right;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+.footer{
+    text-align: center;
+    background-color: gray;
+    padding: 3rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+body{
+    background-color: gray;
+}
+
+.content-form{
+    color: white;
+    width: 100vw;
+    max-width: 40%;
+    margin: 20vh auto;
+    border-radius: .5rem;
+}
+
+form{
+    border: none;
+    background-color: rgb(77, 77, 77);
+    padding: 1rem;
+}
+
+label,
+input,
+textarea{
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    border: 0;
+    display: block;
+    width: 100%;
+}
+
+input,
+textarea{
+    color: white;
+    background-color: rgba(0,0,0,.3);
+    border: 2px solid transparent;
+    border-bottom-color: #bbb;
+    padding: .5rem;
+    margin: .5rem 0 1.5rem;
+    outline: none;
+}
+
+legend{
+    padding: .5rem;
+    text-align: center;
+    font-weight: bold;
+    color: #8e999a;
+    font-size: 1.4rem;
+}
+
+.button{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.button button{
+    padding: .5rem;
+    background-color: gray;
+    color: white;
+}
+
+input:invalid:focus,
+textarea:invalid:focus{
+    border-bottom: 2px solid red;
+}
+
+input:focus,
+textarea:focus{
+    background-color: rgba(0,0,0,.7);
+}
+
+input:valid,
+textarea:valid{
+    border-bottom: 2px solid rgb(203, 255, 126);
+}
+
